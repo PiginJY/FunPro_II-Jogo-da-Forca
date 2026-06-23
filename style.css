@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url('https://wallpapercave.com/wp/wp13360617.png');
+    background-size: cover;
+    background-position: center;
+    
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container {
+    background: #ffffff;
+    opacity: 0.75;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 750px;
+    width: 100%;
+}
+
+h1 {
+    font-size: 2.2rem;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+#palavra {
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 4px;
+    margin: 40px 0;
+    color: #050052;
+    min-height: 60px;
+}
+
+#erros {
+    font-size: 1.1rem;
+    color: #e74c3c;
+    font-weight: 600;
+    margin-bottom: 20px;
+    min-height: 24px;
+}
+
+#mensagem {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 25px;
+    min-height: 35px;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.ganhou {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.perdeu {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+#btn-reiniciar {
+    display: none; /* O botão inicia escondido */
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+}
+
+#btn-reiniciar:hover {
+    background-color: #2980b9;
+}
+
+#btn-reiniciar:active {
+    transform: scale(0.98);
+}
